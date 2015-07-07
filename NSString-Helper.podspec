@@ -1,28 +1,13 @@
-#
-# Be sure to run `pod lib lint NSString-Helper.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "NSString-Helper"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NSString-Helper."
-  s.description      = <<-DESC
-                       An optional longer description of NSString-Helper
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NSString-Helper"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "NSString-Helper is usefull helper to validate email NSSString"
+  s.homepage         = "https://github.com/giuseppenucifora/NSString-Helper"
+  # s.screenshots     = ""
   s.license          = 'MIT'
   s.author           = { "Giuseppe Nucifora" => "me@giuseppenucifora.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NSString-Helper.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/giuseppenucifora/NSString-Helper.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/giuseppenuc'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
