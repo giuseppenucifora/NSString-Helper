@@ -19,8 +19,8 @@
 		539934D76BF11617A2085F30 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FFB3F5CFA3C7C65C5B1957 /* FBSnapshotTestController.m */; };
 		5F976A68AA8B58D4D4F21A03 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DFE804E7F8ECADDDE303E9 /* FBSnapshotTestCasePlatform.m */; };
 		6306CC6145A64DA5BDF95CE9 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF110D256B3A705031F381B /* FBSnapshotTestCase.m */; };
-		6879C9671B4C1026009384B2 /* NSString+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6879C9651B4C1026009384B2 /* NSString+Helper.h */; };
-		6879C9681B4C1026009384B2 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879C9661B4C1026009384B2 /* NSString+Helper.m */; };
+		6896E5B31B4C1EE800BD98AF /* NSString+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6896E5B11B4C1EE800BD98AF /* NSString+Helper.h */; };
+		6896E5B41B4C1EE800BD98AF /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896E5B21B4C1EE800BD98AF /* NSString+Helper.m */; };
 		72C3DB466FE94C5C5D3B8C8A /* Pods-NSString-Helper_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9456A74E7250E4282E104ACD /* Pods-NSString-Helper_Tests-FBSnapshotTestCase-dummy.m */; };
 		7647591B15C1E8EF5129D084 /* Pods-NSString-Helper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A774037865485855B1E71B /* Pods-NSString-Helper_Tests-dummy.m */; };
 		867990D58BF461434757BA02 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = D467D521149FE278124027FD /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,8 +109,8 @@
 		58D4759752EDA6C692E6A0E7 /* Pods-NSString-Helper_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSString-Helper_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		6386AA007A601445F46F89A1 /* Pods-NSString-Helper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NSString-Helper_Example.modulemap"; sourceTree = "<group>"; };
 		66E4E5D14F94BCBBD37F55D6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
-		6879C9651B4C1026009384B2 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Helper.h"; path = "../../NSString-Helper/NSString+Helper.h"; sourceTree = "<group>"; };
-		6879C9661B4C1026009384B2 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Helper.m"; path = "../../NSString-Helper/NSString+Helper.m"; sourceTree = "<group>"; };
+		6896E5B11B4C1EE800BD98AF /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Helper.h"; path = "../../NSString-Helper/NSString+Helper.h"; sourceTree = "<group>"; };
+		6896E5B21B4C1EE800BD98AF /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Helper.m"; path = "../../NSString-Helper/NSString+Helper.m"; sourceTree = "<group>"; };
 		6C1B9FCF1D922294239EDC92 /* NSString_Helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D19D5F2E0EC20172B340165 /* Pods-NSString-Helper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSString-Helper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		700A9E596E887D42605B0241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -356,8 +356,8 @@
 		A6C750DD4EEA2D4585497B3A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6879C9651B4C1026009384B2 /* NSString+Helper.h */,
-				6879C9661B4C1026009384B2 /* NSString+Helper.m */,
+				6896E5B11B4C1EE800BD98AF /* NSString+Helper.h */,
+				6896E5B21B4C1EE800BD98AF /* NSString+Helper.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -455,7 +455,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6879C9671B4C1026009384B2 /* NSString+Helper.h in Headers */,
+				6896E5B31B4C1EE800BD98AF /* NSString+Helper.h in Headers */,
 				DDA416FAFCDC7DA878859F58 /* Pods-NSString-Helper_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,7 +667,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B08291A28B2F32EA134CA0F /* Pods-NSString-Helper_Example-dummy.m in Sources */,
-				6879C9681B4C1026009384B2 /* NSString+Helper.m in Sources */,
+				6896E5B41B4C1EE800BD98AF /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
