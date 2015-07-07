@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.2)
+  - FBSnapshotTestCase/Core (2.0.2)
+  - FBSnapshotTestCase/SwiftSupport (2.0.2):
+    - FBSnapshotTestCase/Core
+  - NSString-Helper (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - NSString-Helper (from `../`)
+
+EXTERNAL SOURCES:
+  NSString-Helper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: fd500d5b282c4ec60215d26d0b58b0cf271dd0d6
+  NSString-Helper: 9b95cbcfebaf8aae322a0c9018bcbf97dec93167
+
+COCOAPODS: 0.37.2
