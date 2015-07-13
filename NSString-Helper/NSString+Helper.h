@@ -10,6 +10,8 @@
 
 @interface NSString (Helper)
 
-- (BOOL) validateEmail;
+- (BOOL) isValidEmail;
+
+- (BOOL) isNumeric;
 
 @end

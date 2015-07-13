@@ -17,7 +17,16 @@ NSString-Helper is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "NSString-Helper"
+pod 'NSString-Helper' , :git => 'https://github.com/giuseppenucifora/NSString-Helper.git'
+```
+##Usage
+
+```ruby
+NSString *str = @"testCode";
+
+NSLog(@"%@",[NSNumber numberWithBool:[str isNumeric]]);
+
+NSLog(@"%@",[NSNumber numberWithBool:[str isValidEmail]]);
 ```
 
 ## Author
