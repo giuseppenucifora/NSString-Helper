@@ -27,6 +27,12 @@ NSString *str = @"testCode";
 NSLog(@"%@",[NSNumber numberWithBool:[str isNumeric]]);
 
 NSLog(@"%@",[NSNumber numberWithBool:[str isValidEmail]]);
+
+NSLog(@"%@",[NSNumber numberWithBool:[str isValidUrl]]);
+
+NSLog(@"%@",[NSNumber numberWithBool:[str isValidTaxCode]]);
+
+
 ```
 
 ## Author
