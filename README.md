@@ -18,6 +18,10 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'NSString-Helper' , :git => 'https://github.com/giuseppenucifora/NSString-Helper.git'
+
+OR
+
+pod 'NSString-Helper'
 ```
 ##Usage
 
