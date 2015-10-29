@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "NSString-Helper"
-    s.version          = "1.0.0"
+    s.version          = "1.0.1"
     s.summary          = "NSString-Helper is usefull helper to validate email NSString"
     s.homepage         = "https://github.com/giuseppenucifora/NSString-Helper"
     s.license          = 'MIT'
