@@ -14,4 +14,8 @@
 
 - (BOOL) isNumeric;
 
+- (BOOL) isValidUrl;
+
+- (BOOL) isValidTaxCode;
+
 @end
