@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'NSString-Helper_Example', :exclusive => true do
-  pod "NSString-Helper", :path => "../"
+target 'NSString-Helper_Example' do
+    pod "NSString-Helper", :path => "../"
 end
 
-target 'NSString-Helper_Tests', :exclusive => true do
-  pod "NSString-Helper", :path => "../"
-
-  pod 'FBSnapshotTestCase'
+target 'NSString-Helper_Tests' do
+    pod "NSString-Helper", :path => "../"
+    
+    pod 'FBSnapshotTestCase'
 end
