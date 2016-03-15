@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.0.7)
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
-  - NSString-Helper (1.0.2)
+  - NSString-Helper (1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  NSString-Helper: 0ee74919829a332f9838fa87b28cb2d1d991e92c
+  NSString-Helper: b4183f73f0a00c6fcd607edebb6c35a7a461376d
 
-PODFILE CHECKSUM: a88b2ea7b96d7de499d212328481d74fcf022692
+PODFILE CHECKSUM: e67014022580f35ad77ccf44e27b78e05236d79c
 
-COCOAPODS: 1.0.0.beta.2
+COCOAPODS: 1.0.0.beta.6

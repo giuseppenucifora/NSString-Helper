@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "NSString-Helper"
-s.version          = "1.0.3"
+s.version          = "1.0.4"
 s.summary          = "NSString-Helper is usefull helper to validate email NSString"
 s.homepage         = "https://github.com/giuseppenucifora/NSString-Helper"
 s.license          = 'MIT'
@@ -22,7 +22,4 @@ s.platform     = :ios, '8.0'
 s.requires_arc = true
 
 s.source_files = 'NSString-Helper/*.{h,m}'
-s.resource_bundles = {
-'NSString-Helper' => ['Pod/Assets/*.png']
-}
 end
