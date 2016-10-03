@@ -35,7 +35,7 @@ NSLog(@"%@",[NSNumber numberWithBool:[str isValidEmail]]);
 
 NSLog(@"%@",[NSNumber numberWithBool:[str isValidUrl]]);
 
-NSLog(@"%@",[NSNumber numberWithBool:[str isValidTaxCode]]);
+NSLog(@"%@",[NSNumber numberWithBool:[str isValidTaXcode]]);
 
 
 ```
