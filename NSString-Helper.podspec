@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "NSString-Helper"
-s.version          = "1.1.0"
+s.version          = "1.2.0"
 s.summary          = "NSString-Helper is usefull helper to validate email NSString"
 s.homepage         = "https://github.com/giuseppenucifora/NSString-Helper"
 s.license          = 'MIT'
@@ -17,7 +17,7 @@ s.source           = { :git => "https://github.com/giuseppenucifora/NSString-Hel
 s.social_media_url = 'https://twitter.com/giuseppenuc'
 s.requires_arc = true
 
-
+s.ios.deployment_target = '8.0'
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 
