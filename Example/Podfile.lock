@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - NSString-Helper (1.2.0)
+  - NSString-Helper (1.2.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - NSString-Helper (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   NSString-Helper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  NSString-Helper: 01aef5bdffc6ece2c8e0f9443ca63a97dca64a48
+  NSString-Helper: dcbf45d121c0c9d6612acfe131e554cf5538b560
 
-PODFILE CHECKSUM: 484bcb2e1b42244b8c02f281336effcfb2c84d83
+PODFILE CHECKSUM: 9a62d5a7de52ffc40c1a1c843b9a7798cf5e4993
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.10.0

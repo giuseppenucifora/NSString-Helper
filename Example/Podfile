@@ -1,6 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'NSString-Helper_Example' do
     pod "NSString-Helper", :path => "../"
@@ -8,6 +6,4 @@ end
 
 target 'NSString-Helper_Tests' do
     pod "NSString-Helper", :path => "../"
-    
-    pod 'FBSnapshotTestCase'
 end
